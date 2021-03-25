@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)file:///home/ofral/Bureau/CV/index.html -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./CV Okolo François_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./CV Okolo François_files/cv.css">
+    <title>CV Okolo François</title>
+    
+</head>
+
+<body>
+
+    <div id="container">
+
+        <!--partie section-->
+
+        <section>
+            <div id="section">
+
+                <header>
+                    <!--nom-->
+                    <h1 style="font-size:3.7em; line-height: 3px;"><span class="francois">François</span> Okolo</h1>
+                    <p style="font-family: papyrus; font-size: 1.3em;margin-bottom: 80px;"><strong>Développeur data junior.</strong></p>
+
+                </header>
+
+                <div class="form">
+                    <div class="formh1">
+
+                        <h2><i class="fa fa-graduation-cap" aria-hidden="true" style="color:#F9A825; font-size: 25pt;"></i> FORMATION
+                        </h2>
+                    </div>
+                    <div class="form2">
+                        
+                            <table style="height: 20em; margin:40px 10px 10px 20px;">
+                                <tbody><tr>
+                                    <td valign="top"><i class="fa fa-dot-circle-o" aria-hidden="true" style="color:#F9A825; font-size: 20px;"></i></td>
+                                    <td valign="top" style="padding-left: 10px; font-weight: bold; margin-bottom: px;"> Depuis<br> Novembre 2020</td>
+                                    <td valign="top" style="padding-left: 10px;"><span style="font-size: large; font-weight: bolder;">Fabrique Simplon à Grenoble</span><br>Formation Développeur data junior </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top"><i class="fa fa-circle" aria-hidden="true" style="color:#F9A825; font-size: 15px; text-align: right;"></i></td>
+                                    <td valign="top" style="padding-left: 10px; font-weight: bold;">2017</td>
+                                    <td valign="top" style="padding-left: 10px;"><span style="font-size: large; font-weight: bolder;">Institut Supérieur
+                                        de Technologie Avancée et de Gestion (istag).</span><br>Master en Gestion de ressources humaines à </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top"><i class="fa fa-circle" aria-hidden="true" style="color:#F9A825; font-size: 15px;"></i></td>
+                                    <td valign="top" style="padding-left: 10px; font-weight: bold;">2015</td>
+                                    <td valign="top" style="padding-left: 10px;"><span style="font-size: large; font-weight: bolder;">Université de Yaoundé 2 Soa - Cameroun.</span><br>Licence en droit privé, option droit des affaires.</td>
+                                </tr>
+                                <tr>
+                                    <td valign="top"><i class="fa fa-circle" aria-hidden="true" style="color:#F9A825; font-size: 15px;"></i></td>
+                                    <td valign="top" style="padding-left: 10px; font-weight: bold;">De Janvier 2016 <br> à  Octobre 2017</td>
+                                    <td valign="top" style="padding-left: 10px;"><span style="font-size: large; font-weight: bolder;">Collège Saint Pie X d'Edea - Cameroun</span><br>
+                                    Baccallauréat A4 - Lettre, Philosophie, Lv3 All: Litterature</td>
+                                </tr>
+                            </tbody></table>
+                    </div>
+                </div>
+
+
+                <!--projets-->
+
+                <article>
+                    <div class="expe">
+                        <div class="expepro">
+                            <h2><i class="fa fa-briefcase" aria-hidden="true" style="color:#F9A825; font-size: 25pt;"></i> PROJETS</h2>
+                        </div>
+                        <div class="expeinfo">                              
+                                <table style="height: 20em; margin:40px 10px 10px 20px;">
+                                    <tbody><tr>
+                                        <td valign="top"><i class="fa fa-dot-circle-o" aria-hidden="true" style="color:#F9A825; font-size: 20px;"></i></td>
+                                        <td valign="top" style="padding-left: 10px; font-weight: bold; margin-bottom: px;">Projet 3 : Tableau de bord des emplois</td>
+                                        <td valign="top" style="padding-left: 10px;">Analyse de l'emploi dans le secteur de la Data en région Auvergne-Rhône-Alpes ou dans toute la France.</td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top"><i class="fa fa-circle" aria-hidden="true" style="color:#F9A825; font-size: 15px; text-align: right;"></i></td>
+                                        <td valign="top" style="padding-left: 10px; font-weight: bold;">Projet 2 : Suivi de la pollution atmosphérique</td>
+                                        <td valign="top" style="padding-left: 10px;">Visualiser et analyser la pollution atmosphérique en région Auvergne-Rhône-Alpes</td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top"><i class="fa fa-circle" aria-hidden="true" style="color:#F9A825; font-size: 15px;"></i></td>
+                                        <td valign="top" style="padding-left: 10px; font-weight: bold;">Projet 1 : Mesure d'audience sur le web </td>
+                                        <td valign="top" style="padding-left: 10px;">Analyser les logs d'un serveur web d'un site-web e-commerce afin d'obtenir une mesure d'audience dans le temps.</td>
+                                    </tr>
+                                </tbody></table>
+                            
+                        </div>
+                    </div>
+
+                </article>
+                <!--competences-->
+                <article>
+                    <div class="competence">
+
+                        <h2> <i class="fa fa-pencil" aria-hidden="true" style="color:#F9A825; font-size: 25pt;"></i> COMPETENCES</h2>
+                        <div class="comp">
+                            <div class="comppro" style="text-align: left">
+                                <p style="font-size: large;"><strong>Savoir Faire</strong></p>
+                                <label for="file">BASH :</label>
+                                <progress id="file" max="100" value="55"> 55% </progress><br><br>
+                                <label for="file">SQLITE :</label>
+                                <progress id="file" max="100" value="53"> 53% </progress><br><br>
+                                <label for="file">PYTHON :</label>
+                                <progress id="file" max="100" value="45"> 45% </progress><br><br>
+                                <label for="file">METABASE :</label>
+                                <progress id="file" max="100" value="65"> 65% </progress><br><br>
+                                <label for="file">TABLEAU :</label>
+                                <progress id="file" max="100" value="70"> 70% </progress><br><br>
+                            </div>
+
+                            <div class="compperso" style="text-align: left;">
+                                <p style="font-size: large;"><strong>Savoir Être</strong></p>
+                                    <ol>
+                                        <li>Créatif</li>
+                                        <li>Dynamique</li>
+                                        <li>Ambitieux</li>
+                                        <li>Sérieux</li>
+                                        <li>Sens de l'humour</li>
+                                    </ol>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <section>
+                    <div class="oudini">
+                        <h2><i class="fa fa-address-card-o" aria-hidden="true" style="color:#F9A825; font-size: 25pt;"></i> À PROPOS DE MOI</h2>
+                        <div class="apropos2">
+                            <p>Je me nomme Okolo francois, 29 ans,  de nationnalité Camerounaise. Développeur Data junior, encore en formation à simplon grenoble.
+                                Formation lors de laquelle j'apprends à créer des bases de données; extraire, nettoyer, transformer 
+                                et valoriser la données; à visualiser et à analyser les données.
+                            </p>
+                        </div>
+
+                        <h2><i class="fa fa-comments" aria-hidden="true" style="color:#F9A825; font-size: 25pt;"></i> CONTACT</h2>
+                        <div class="icone">
+                            <p>
+                                <a href="mailto:ofralsesse@gmail.com" style="color: rgb(221, 35, 35);"><img src="./CV Okolo François_files/gmail.png"> Email</a>
+                            </p>
+                            <p>
+                                <a href="https://www.linkedin.com/in/fran%C3%A7ois-l-okolo-508318186/" style="color: rgb(35, 124, 165);"><img src="./CV Okolo François_files/in.png"> Linkedin</a>
+                            </p>
+                            <p>
+                                <a href="tel:+33636087016" style="color:black; border:none"><img src="./CV Okolo François_files/tél.png">N° de Tél.</a>
+                            </p>
+                    
+                        </div>
+                        <h2>LOISIRS</h2>
+                    <p style="text-align: center; word-spacing: 14px; font-size: 25pt;">
+                        <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                        <i class="fa fa-bicycle" aria-hidden="true"></i>
+                        <i class="fa fa-leanpub" aria-hidden="true"></i>
+                        <i class="fa fa-film" aria-hidden="true"></i>
+                    </p>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!--partie nav-->
+
+        <nav>
+            <div class="nav">
+                <header>
+                    <p class="image" style="margin-left: 0;margin-right: 0">
+                        <a href="file:///home/ofral/Bureau/CV/images/photoCv.jpg">
+                            <img src="./CV Okolo François_files/photoCvmini.jpg" alt="Okolo François"></a>
+                    </p>
+                </header>
+
+                <section>
+                    <div class="navbody">
+
+                        <div class="contact">
+                            <h2>CONTACT</h2>
+                            <h3>Address:</h3>
+                            <p>Grenoble, France</p>
+                            <h3>Télephone:</h3>
+                            <p>
+                                <a href="tel:+33636087016" style="color:rgb(15, 15, 17);">06 36 08 70 16</a> 
+                            </p>
+                            <h3>Email:</h3>
+                            <p>
+                                <a href="mailto:ofralsesse@gmail.com" style="color:rgb(14, 13, 13);">ofralsesse@gmail.com</a>
+                            </p>
+                            <h3>Linkedin:</h3>
+                            <p>
+                                <a href="https://www.linkedin.com/in/fran%C3%A7ois-l-okolo-508318186/" style="color:rgb(0, 0, 0);">Linkedin</a>
+                            </p>
+                        </div>
+
+                        <div class="apropos">
+                            <h2>À PROPOS DE MOI</h2>
+                            <p>Je me nomme Okolo francois, 29 ans,  de nationnalité Camerounaise. Développeur Data junior, encore en formation à simplon grenoble.
+                                Formation lors de laquelle j'apprends à créer des bases de données; extraire, nettoyer, transformer 
+                                et valoriser la données; à visualiser et à analyser les données.
+                            </p>
+                        </div>
+
+                    </div>
+                </section>
+
+                <footer>
+                    <h2>LOISIRS</h2>
+                    <p style="text-align: center; word-spacing: 14px; font-size: 25pt;">
+                        <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                        <i class="fa fa-bicycle" aria-hidden="true"></i>
+                        <i class="fa fa-leanpub" aria-hidden="true"></i>
+                        <i class="fa fa-film" aria-hidden="true"></i>
+                    </p>
+                </footer>
+            </div>
+        </nav>
+    </div>
+
+    <!--legend-->
+
+
+</body></html>

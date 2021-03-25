@@ -1,0 +1,137 @@
+/*position de chaque block*/
+
+body {
+    width: 70%;
+    margin: 0 15% 0 15%;
+}
+
+#container {
+    display: flex;
+    background-color: #F5F5F5;
+    flex-direction: row-reverse;
+    border: 0.2px solid #CFD8DC;
+}
+
+
+/*Nav*/
+nav {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: text-align: center;
+    justify-content: column;
+    width: 25%;
+    background-color: #F9A825;
+    margin: 0 0 0 0;
+}
+
+nav h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #63645d85;
+}
+
+img {
+    border: 0.7px solid #25a1a5;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.image {
+    text-align: center;
+}
+
+.contact p,
+h3 {
+    text-align: left;
+}
+
+.navbody h3,
+p {
+    margin: 10px 40px 10px 40px;
+}
+
+.apropos {
+    margin-bottom: 10em;
+}
+
+.apropos p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+
+/*nom*/
+
+.francois {
+    color: #FFCA28;
+}
+
+
+/*.section*/
+
+#section {
+    margin: 0 30px 0 40px;
+}
+
+#section h2 {
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px solid #F9A825;
+    padding-bottom: 2px;
+    word-spacing: 7px;
+    margin-left: 20px;
+    margin-bottom: 0.8em;
+}
+
+/*experience*/
+
+
+.comp {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.comp li {
+    list-style-type: none;
+}
+
+.oudini {
+    display: none;
+}
+
+
+/*Pour les écrans de 1000px */
+
+@media all and (max-width: 1000px) {
+    body {
+        width: 100%;
+        margin: auto;
+    }
+    #container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        background-color: none;
+    }
+    .nav {
+        display: none;
+    }
+    .oudini {
+        display: flex;
+        flex-direction: column;
+    }
+    .apropos2 P {
+        text-align: justify;
+        margin
+    }
+    .icone {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .francois {
+        color: #FBC02D;
+    }
+}
+ 

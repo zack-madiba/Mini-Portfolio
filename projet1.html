@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="https://fontawesome.com/icons?d=gallery&p=3&m=free" />
+        <link rel="stylesheet" href="css/all.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/templatemo-style.css" />
+        <title>Mesure d'audience sur le web</title>
+        
+      </head>
+
+      <body>
+        <div class="projet-box">
+          <header>
+            <div clas="projet1-header">
+              <div class="projet-title">
+                <h1>Mesure d'audience sur le web</h1>
+                <p><i>Durée du projet : 1 semaine</i></p>
+          </header>
+          <main>
+            <div class="projet1-main"><br>
+              <div class="projet1-context-title">
+                <h2>Context du projet</h2>
+              </div>
+              <div class="projet1-context">
+                <p> Par groupe de deux, nous souhaitons effectuer une mesure d'audience des visiteurs.
+                  Les logs du serveur web sont au format "Common Log Format" qui semble être communément utilisé sur le web.
+                  Pour se faire, nous nous sommes fixés de repondre aux questions suivantes :</p>
+                  <ul>
+                    <li>Quel est le traffic sur le site ?</li>
+                    <li>Combien de personnes visitent le site ?</li>
+                      <li>Quels sont nos produits les plus et moins intéressants pour notre clientèle ?</li>
+                      <li>De quel endroit d'internet viennent les visiteurs avant d'arriver sur le site ?</li>
+                      <li>Quels moments de la journée sont les plus/moins propices à la vente ?</li>
+                      <li>Quels navigateurs sont les plus / moins utilisés par les visiteurs ?</li>
+                      <li>Quels systèmes d'exploitation sont les plus / moins utilisés par les visiteurs ?</li>
+                      <li>Quels appareils sont les plus / moins utilisés par les visiteurs ?</li>
+                      <li>D'où sur la planète viennent les visiteurs du site-web ?</li>
+                  </ul>
+              </div>
+              <div class="projet1-answer">
+              <h3>Collecte des données</h3>
+                <p>Comme nous l'avons dit les données proviennent d'un serveur web NGINX et sont contenues dans un fichier au format log de 3.4 GB.
+                  Le log que nous avons représente une semaine de connexion au serveur et contient environ 10.3 M d'enregistrement.
+                </p> 
+              <h3>Transformation des données</h3>
+                <p>Notre but ici est d'intégrer les données du log dans une base de donnée SQLite. La problématique est, que SQLite ne sais pas comment intégrer des donnée au format log.
+                Il nous faut donc transformer ce fichier log en un fichier que SQLite sera intégrer en base de données.
+                Pour cela j'ai fait quelques recherches sur Internet afin de trouver un script en python afin de transformer un fichier Common Log Format en fichier csv.
+                Ces deux formats étant très courant je n'ai pas eu de mal à trouver un script fonctionnel.
+                Cependant, le script ne faisait pas la conversion exactement comme je le voulais. En effet, j'ai dû adapter la regex du script afin de pouvoir sélectionner chaque partie du log format comme il faut ensuite de l'intégrer au fichier csv.
+                Finalement une fois le script modifié, pour l'utiliser, je dois lui passé en paramètre mon fichier au format log et le nom de mon fichier au format csv.
+                La convertion se fait ensuite de manière automatique pendant quelques minutes à cause du nombre d'enregistrements.</p>
+              </div>
+            </div>
+          </main>
+        </div>
+    </body>
+</html>
